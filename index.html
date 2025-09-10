@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio Wilson Pradana Damanik</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Portofolio</div>
+      <ul class="nav-links">
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <div class="text-section">
+      <h1>Hi, I'm <span class="typing"></span></h1>
+      <p>
+         Saya adalah mahasiswa Teknik Informatika Universitas Teknokrat Indonesia angkatan 2023, dengan minat dan keahlian dalam Frontend Development, UI/UX Design, serta Desain Grafis. Aktif dalam organisasi kampus, berpengalaman dalam kolaborasi tim, dan memiliki semangat belajar yang tinggi
+      </p>
+      <div class="social-icons">
+        
+        </a>
+        <a href="https://www.instagram.com/con_wi1?igsh=MW9rc2xyaWswMW0xOA==" target="_blank">
+          <img src="ig.png" alt="Instagram" />
+        </a>
+        <a href="https://youtube.com/@wilsonpradanadamanik3606?si=YP6aEGOuk1V14_TN" target="_blank">
+          <img src="youtube.png" alt="YouTube" />
+        </a>
+      </div>
+
+      
+
+      <div class="stats">
+        <div>💼 50+ Happy Clients</div>
+        <div>🧑‍💻 100+ Projects</div>
+        <div>🏆 15+ Awards</div>
+        <div>📅 3+ Years Experience</div>
+      </div>
+    </div>
+
+<div class="image-section">
+  <div class="profile-pic-container">
+    <!-- Foto Profil -->
+    <img src="profile.jpg" alt="Profile" class="profile-img" />
+
+    <!-- Icon Skill -->
+    <div class="skill-icons">
+      <img src="js.png" alt="JS" class="icon float-js" />
+      <img src="figma.png" alt="Figma" class="icon float-figma" />
+      <img src="php.png" alt="PHP" class="icon float-php" />
+      <img src="sql.png" alt="SQL" class="icon float-sql" />
+    </div>
+  </div>
+</div>
+
+<style>
+  .profile-pic-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+  }
+
+  .profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .skill-icons {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+  }
+
+  .skill-icons img.icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+    background: transparent;
+    border: none;
+    padding: 0;
+  }
+
+  /* Posisi icon sekeliling profil */
+  .float-js    { top: -70px; left: 90%; transform: translateX(-50%); }
+  .float-figma { top: 70%; left: 320px; transform: translateY(-50%); }
+  .float-php   { bottom: -50px; left: 70%; transform: translateX(-50%); }
+  .float-sql   { top: 30%; left: 0px; transform: translateY(-50%); }
+
+  /* Animasi Floating Dinamis */
+  @keyframes floatCrazy {
+    0%   { transform: translate(0, 0) rotate(0deg); }
+    25%  { transform: translate(3px, -5px) rotate(5deg); }
+    50%  { transform: translate(-3px, -3px) rotate(-5deg); }
+    75%  { transform: translate(-2px, 3px) rotate(3deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+  }
+
+  .float-js    { animation: floatCrazy 3s ease-in-out infinite; }
+  .float-figma { animation: floatCrazy 4s ease-in-out infinite; }
+  .float-php   { animation: floatCrazy 3.5s ease-in-out infinite; }
+  .float-sql   { animation: floatCrazy 4.2s ease-in-out infinite; }
+</style>
+
+    </div>
+  </main>
+
+  <!-- EXPERIENCE SECTION -->
+  <section id="experience" class="experience-section">
+    <h2>My <span>Experience</span></h2>
+    <p class="description">
+      Sebagai mahasiswa aktif yang mengikuti banyak organisasi, <br>
+       saya terus mengembangkan kemampuan diri melalui kolaborasi, pengalaman lapangan, dan tanggung jawab kepemimpinan.
+    </p>
+
+    <div class="experience-cards">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="hima.png" alt="HIMA Icon" class="logo-center">
+        <h3>Himpunan Mahasiswa</h3>
+        <p class="company">Divisi Kreatif Ekonomiu</p>
+        <p class="info">2024 - Present • Informatika • <span class="badge">Anggota</span></p>
+        <p>Berperan aktif dalam merancang kegiatan kewirausahaan kreatif untuk mahasiswa, seperti pelatihan desain dan bazar UMKM kampus. Mendorong inovasi serta mendukung pengembangan ekonomi kreatif di lingkungan mahasiswa melalui kolaborasi lintas divisi.</p>
+        
+        
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card highlight">
+        <img src="bem.png" alt="BEM Icon" class="logo-center">
+        <h3>Badan Eksekutif Mahasiswa</h3>
+        <p class="company">Sekertaris</p>
+        <p class="info">2025 - Present • FTIK • <span class="badge">Anggota</span></p>
+        <p>Bertanggung jawab dalam mengelola administrasi organisasi, dokumentasi kegiatan, serta menyusun laporan dan agenda resmi BEM FTIK. Berkontribusi dalam pelaksanaan program kerja strategis yang bertujuan meningkatkan kualitas kehidupan mahasiswa.</p>
+       
+        
+      </div>
+
+
+      <!-- Card 4 -->
+      <div class="card">
+        <img src="cyt.png" alt="PROTEK Icon" class="logo-center">
+        <h3>UKM CYT</h3>
+        <p class="company">Divisi Ibadah</p>
+        <p class="info">2023 - Present • UTI • <span class="badge">Ketua Divisi</span></p>
+        <p>Mengkoordinasi program ibadah rutin dan pelayanan, serta menciptakan konten visual dan digital yang mendukung kegiatan rohani mahasiswa Kristen. Memastikan setiap kegiatan berlangsung kondusif, inspiratif, dan mendukung pertumbuhan iman anggota.</p>  
+      </div>
+    </div>
+  </section>
+
+<section id="education" class="education-section" style="text-align: center;">
+  <h2><span>Riwayat</span> Pendidikan</h2>
+ 
+  <!-- Formal Education -->
+  <h3 style="margin-top: 40px;">Pendidikan</h3>
+  <div class="card" style="max-width: 600px; margin: 20px auto; text-align: left;">
+    <h3>SMK</h3>
+    <span class="sub">TKJ - SMK Negri 2 Kotabumi</span>
+    <p class="meta">📅 2020 - 2023 | 📍 Lampung Utara , Lampung</p>
+    <div class="badges">
+<span class="badge blue" style="color: white;">Nilai : 89.3/100.0</span>
+<span class="badge green" style="color: white;">Graduated</span>
+    </div>
+    <p>Fokus di Jaringan</p>
+    <div class="courses">
+      <strong>Key Courses:</strong>
+      <p>Jaringan, Website</p>
+    </div>
+  </div>
+
+  <div class="card" style="max-width: 600px; margin: 20px auto; text-align: left;">
+    <h3>S1</h3>
+    <span class="sub">Teknik Informatika - Universitas Teknokrat Indonesia</span>
+    <p class="meta">📅 2023 - 2026 | 📍 Bandar Lampung , Lampung</p>
+    <div class="badges">
+<span class="badge blue" style="color: white;">Nilai : 3.36/4.00</span>
+<span class="badge green" style="color: white;">Fresh Graduated</span>
+    </div>
+    <p>Sedang melaksanakan perkuliahan semester 5, dan menguasai berbagai bidang.</p>
+    <div class="courses">
+      <strong>Keahlian:</strong>
+      <p>UIUX Desain, Frontend Developer, Desain grafis, 3D Desain</p>
+    </div>
+  </div>
+
+  <!-- Certifications -->
+  <h3 style="margin-top: 40px;">Pengalaman</h3>
+  <div class="card-container" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 20px;">
+    <div class="cert-card">
+      <div class="icon-circle"><i class="fas fa-microphone-alt"></i></div>
+      <h3>Desain</h3>
+      <p>Prodi Informatika Mahasiswa</p>
+      <span class="year">2025</span>
+    </div>
+
+
+    <div class="cert-card">
+      <div class="icon-circle"><i class="fas fa-chalkboard-teacher"></i></div>
+      <h3>Training Teacher UI/UX Desain</h3>
+      <p>UKM Programming Teknokrat</p>
+      <span class="year">2024 - 2025</span>
+    </div>
+
+  </div>
+</section>
+
+<section id="projects" class="projects-section">
+  <h2 style="color: black;">My <span>Projects</span></h2>
+  <p class="description">
+    Selama masa kuliah saya telah membuat beberapa project untuk mengembangkan skill saya.
+  </p>
+
+<h2 style="text-align: center; color: black; font-weight: bold; margin: 60px 0 20px;">
+  Website
+</h2>
+
+
+  <div class="project-cards">
+    <!-- Project 1 -->
+    <div class="project-card fullstack completed">
+      <div class="header">
+        <span class="badge blue" style="color: rgb(255, 255, 255);">Warung Makan Kita-Kita</span>
+        <span class="status completed">✅ Selesai</span>
+      </div>
+      <div class="icon" style="text-align: center;">
+  <img src="https://img.icons8.com/color/96/warehouse.png" alt="Web Stok Barang" />
+</div>
+
+      <h3>Web Aplikasi kasir</h3>
+      <p>
+        Website stok ketersediaan barang, sehingga owner tidak lagi mengecek secara manual di gudang,
+        tetapi tinggal inputkan barang datang dan barang terjual.
+      </p>
+      <div class="tech-list">PHP • Javascript • HTML • MySQL • CSS</div>
+      <ul class="features">
+        <li>📊 Real-time</li>
+        <li>📦 Inventory management </li>
+        <li>🧾 Order processing workflow</li>
+      </ul>
+      <div class="meta">
+        <span>📅 2023</span>
+        <span>⏱️ 3 Bulan</span>
+        <span>👥 2 Orang</span>
+      </div>
+      <div class="actions">
+        <a href="#" class="btn">Live Demo</a>
+        <a href="#" class="btn outline">Code</a>
+      </div>
+    </div>
+
+
+<div class="project-cards">
+
+
+
+  <!-- UI/UX Project 3 -->
+  <div class="project-card uiux completed">
+    <div class="header">
+      <span class="badge purple" style="color: white;">Puskesmas</span>
+      <span class="status completed">✅ Selesai</span>
+    </div>
+    <div class="icon" style="text-align: center;">
+      <img src="https://img.icons8.com/color/96/job.png" alt="Lowongan Kerja Icon" />
+    </div>
+    <h3>Desain aplikasi ByQ </h3>
+    <p>
+      Desain aplikasi dengan target mahasiswa yang ingin mencari pekerjaan partime.
+    </p>
+    <div class="tech-list">Figma • UX Research • Prototype</div>
+    <ul class="features">
+      <li>💬 Forum Diskusi</li>
+      <li>📝 Katalog Pekerjaan</li>
+      <li>📢 Jadwal Kerja dan Gaji</li>
+    </ul>
+    <div class="meta">
+      <span>📅 2024</span>
+      <span>⏱️ 1 Bulan</span>
+      <span>👥 1 Orang</span>
+    </div>
+    <div class="actions">
+      <a href="#" class="btn">Preview</a>
+      <a href="#" class="btn outline">Figma File</a>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<section id="skills" class="skills-section">
+  <h2><span>My</span> Skills</h2>
+  <p>Berikut adalah skill yang saya kuasai dan terus saya kembangkan:</p>
+
+  <div class="skills-container">
+    <div class="skill-card">
+      <div class="skill-header">
+        <div class="icon-circle"><i class="fas fa-pencil-ruler"></i></div>
+        <h3>UI/UX Design</h3>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 90%; background-color: #3498db;"></div>
+      </div>
+      <span class="percent">90%</span>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-header">
+        <div class="icon-circle"><i class="fas fa-paint-brush"></i></div>
+        <h3>Graphic Design</h3>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 85%; background-color: #e67e22;"></div>
+      </div>
+      <span class="percent">85%</span>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-header">
+        <div class="icon-circle"><i class="fas fa-code"></i></div>
+        <h3>Frontend Developer</h3>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 80%; background-color: #2ecc71;"></div>
+      </div>
+      <span class="percent">80%</span>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-header">
+        <div class="icon-circle"><i class="fas fa-camera"></i></div>
+        <h3>Photography</h3>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 75%; background-color: #9b59b6;"></div>
+      </div>
+      <span class="percent">75%</span>
+    </div>
+
+    <div class="skill-card">
+      <div class="skill-header">
+        <div class="icon-circle"><i class="fas fa-video"></i></div>
+        <h3>Video Editor</h3>
+      </div>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 70%; background-color: #f39c12;"></div>
+      </div>
+      <span class="percent">70%</span>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact-section">
+  <h2 class="section-title"><span>Contact</span> Me</h2>
+  <p>Hubungi saya melalui kontak berikut atau kirimkan pesan langsung</p>
+
+
+  <div class="contact-container">
+    <!-- Kontak Kiri -->
+    <div class="contact-info">
+      <div class="contact-card">
+        <div class="contact-header">
+          <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+          <h3>Email</h3>
+        </div>
+        <p>wilsondamanik27@gmail.com</p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-header">
+          <div class="icon-circle"><i class="fab fa-whatsapp"></i></div>
+          <h3>WhatsApp</h3>
+        </div>
+        <p>+6285212744417</p>
+      </div>
+
+      <div class="contact-card">
+        <div class="contact-header">
+          <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+          <h3>Lokasi</h3>
+        </div>
+        <p>dusun 1 gelok, Kotabumi Utara ,Lampung ,Indonesia</p>
+      </div>
+
+      
+    </div>
+
+    <!-- Form Kanan -->
+    <div class="contact-form">
+      
+      <form id="wa-form">
+        <input type="text" id="name" placeholder="Nama Anda" required>
+        <input type="email" id="email" placeholder="Email Anda" required>
+        <textarea id="message" rows="5" placeholder="Pesan Anda..." required></textarea>
+        <button type="submit">Kirim ke WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+  <script src="script.js"></script>
+</body>
+
+<footer class="footer-section">
+  <div class="footer-container">
+    <div class="footer-card">
+      <h3>Wilson Portfolio</h3>
+      <p>Terima kasih telah mengunjungi portofolio saya. Sampai jumpa di project selanjutnya!</p>
+    </div>
+    <div class="footer-card">
+      <h4>Contact</h4>
+      <ul>
+        <li><i class="fas fa-envelope"></i> wilsondamanik27@gmail.com</li>
+        <li><i class="fab fa-whatsapp"></i> +6285212744417</li>
+        <li><i class="fas fa-map-marker-alt"></i> Dusun 1 Gelok, Prokimal, Kotabumi Utara, lampung</li>
+      
+      </ul>
+    </div>
+    <div class="footer-card">
+  <h3>Follow Me</h3>
+  <div class="social-icons">
+    <a href="#" class="social-link instagram" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+    <a href="#" class="social-link youtube" aria-label="YouTube">
+      <i class="fab fa-youtube"></i>
+    </a>
+   
+  </div>
+</div>
+
+
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Wilson Pradana Damanik.</p>
+  </div>
+</footer>
+
+
+</html>
